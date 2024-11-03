@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-3b124ff0e0d7a67cd8c995d0aeb1d15a.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+      >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+  <div class="alert" id="alert">
+
+  </div>
+    <div class="left">
+      <h1 class="tagline">JOIN US ON</h1>
+      <h1 class="tagline2" style="font-size: 45px;">OUR MISSION TO</h1>
+      <h1 class="tagline3" style="font-size: 45px;"><span style="font-size: 60px; color: rgb(53, 207, 53);">POLLUTION FREE</span> <br> WORLD</h1>
+    </div>
+    <div class="canvas">
+        <h1 class="mainHeader">Join Us</h1>
+        <form action="#" onsubmit="return allValidate()" id="myForm">
+          <div class="name">
+            <input type="text" id="firstName" class="inpField namefield" placeholder="First Name">
+          <input type="text" id="lastName" class="inpField namefield" placeholder="Last Name"><br>
+          </div>
+          <div class="date">
+            <label for="dob">Date of Birth: </label>
+          <input type="date" name="dob" class="dateField" id="dob">
+          </div>
+          <div class="email">
+            <input type="email" name="email" id="email" class="password" placeholder="Your email">
+          </div>
+          <div class="passwd">
+            <input type="password" id="password" name="password" class="password" placeholder="Enter Password"><span class="eyeOpen"><img src="closed-eyes-removebg-preview.png" alt="" id="eye" style="height: 20px; width: 20px; filter: invert(1);"></span>
+            <input type="password" id="password2" name="password" class="password" placeholder="Confirm Password"><span class="eyeClose"><img src="closed-eyes-removebg-preview.png" alt="" id="eye2" style="height: 20px; width: 20px; filter: invert(1);"></span>
+          </div>
+          <div class="btns">
+            <input type="submit" class="btn btn-sb" id="submit" value="Submit" onclick="validateFirstName(), validateLastName(), validateEmail(), matchPassword(), validatePassword(), allValidate()">
+            <input type="reset" class="btn btn-re">
+          </div>
+        </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
